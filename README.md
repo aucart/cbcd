@@ -8,9 +8,9 @@ What to download? **Anaconda Installer**, here https://www.anaconda.com/distribu
 What it that? In Matlab, you install the language and the IDE (Integrated Development Environment = environment where you code) all together (you have no choice and you may have never thought about it). However there are many ways to use Python (a bit like the difference R/Rstudio). Also, with Python you will need several packages (even for simple things), but there's a convenient way not to have to worry about it: installing the Anaconda distribution. When you install Anaconda, you are installing Python + many useful packages for data analysis + an IDE (environment) called Spyder. If that's the first time you hear about all that, can be confusing but I will explain everything and you'll see, once that familiarisation phase has passed, Python is (at least) as intuitive as Matlab!
 
 
-[1] If you already have Anaconda, or Python install and you are comfortable with installing packages, no need to do this
+[1] If you already have Anaconda, or you already have Python installed and you are comfortable with installing packages, no need to do this.
 
-! I should give a **warning** here, if you already have an install of Python on your laptop.. This can possibly mess things up *with your Python-related stuff*. And sadly I'm not an expert in debuging install/Python conflict issues if they arise. If you don't have any Python on your system, it's totally safe!
+/!\ I should give a **warning** here, *if you already have an install of Python on your laptop*, this can possibly mess things up *with your Python-related stuff*. And sadly I'm not an expert in debuging install/Python conflict issues if they arise. If you don't have any Python on your system, it's totally safe!
 
 
 #### Installation
