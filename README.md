@@ -9,7 +9,8 @@ What it that? In Matlab, you install the language and the IDE (Integrated Develo
 
 
 [1] If you already have Anaconda, or Python install and you are comfortable with installing packages, no need to do this
-! I should give a warning here, if you already have an install of Python on your laptop.. This can possibly mess things up *with your Python-related stuff*. And sadly I'm not an expert in debuging install/Python conflict issues if they arise. If you don't have any Python on your system, it's totally safe!
+
+! I should give a **warning** here, if you already have an install of Python on your laptop.. This can possibly mess things up *with your Python-related stuff*. And sadly I'm not an expert in debuging install/Python conflict issues if they arise. If you don't have any Python on your system, it's totally safe!
 
 
 #### Installation
