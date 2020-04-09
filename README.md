@@ -20,3 +20,19 @@ If you feel in a mood of installing it, go for it! As far as I can remember, you
 ###### 'Testing' the installation
 Start 'Spyder' (it should be somewhere if you have successfully installed Anaconda). No need to run Anaconda, or Python, or anything. Python (more preciseley, a conda environment) will be by default in your Spyder.
 Download, then try and run the code 'testInstall.py' from within Spyder. If it plots a curve, it means the install went well! 
+
+
+
+## Getting started with Python
+
+#### Option A : start learning _Without installaing anything on your computer_!
+
+https://www.datacamp.com/
+
+#### Option B : one of these
+
+- https://www.dataquest.io/course/python-for-data-science-fundamentals/
+
+  - followed by: https://www.dataquest.io/course/pandas-fundamentals/
+
+ 
