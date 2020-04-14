@@ -1,6 +1,39 @@
-# cbcd Python workshops
+# CBCD Python learning group 
 
-## Session1 (9/4/2020)
+### Summary / Github content
+
+- **Memos**
+
+  |_ PDFs:  really good 'Cheat sheets' from datacamp + (to come) equivalent Matlab <-> Python for common functions
+
+  |_ a01_generalImports.py: *recommend to copy it at the start of every script, to save time*
+
+  |_ debugging
+
+  ​		importing_xxx.py: As mentioned during the session last week, different syntax to import various things. Make sure you have dowloaded the whole folder 'debugging'
+
+  ​        *For now you'll probably find this uninteresting and/or confusing. But come back here whenever you face an import problem, and hopefully going it will help make sense of it and solve your problem*
+
+##### Scripts:
+
+|_ After you've been through the fundamentals (see tutorials below), you can play with the scripts in there.
+
+
+
+
+### Useful links/external ressources:
+
+- Tutorials:
+  - main modules you need to learn about: numpy and dataframe (manipulating data: in brief, numpy is working like matrices, and datafame is build on top of numpy and is more convenient because it allows to call cells by name, handles input, output, etc.)
+      - https://www.dataquest.io/course/python-for-data-science-fundamentals/
+  
+	  - https://www.dataquest.io/course/pandas-fundamentals/
+  
+- great search engine for coding: https://duckduckgo.com/ (but obviously google will work fine)
+
+# Session by session comments
+
+## Week 1 (9/4/2020) - Installation & demo environment
 I'm not expecting you to do any before the session, as one of the points is that you set time aside for Python over the sessions (and obviously because 'who am i to "expect you" to do anything!!), BUT for this time it would be great that you **just downloaded** one thing before[1] (helpful in case you have a bad connection that would suffer if you download & videoconference simultaneously). 
 
 What to download? **Anaconda Installer**, here https://www.anaconda.com/distribution/.
@@ -29,10 +62,8 @@ Download, then try and run the code 'testInstall.py' from within Spyder. If it p
 
 https://www.datacamp.com/
 
-#### Option B : one of these
+#### Option B : 
 
 - https://www.dataquest.io/course/python-for-data-science-fundamentals/
 
   - followed by: https://www.dataquest.io/course/pandas-fundamentals/
-
- 
