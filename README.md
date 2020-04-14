@@ -14,7 +14,7 @@
 
   ​        *For now you'll probably find this uninteresting and/or confusing. But come back here whenever you face an import problem, and hopefully going it will help make sense of it and solve your problem*
 
-##### Scripts:
+- **Scripts**
 
 |_ After you've been through the fundamentals (see tutorials below), you can play with the scripts in there.
 
@@ -29,9 +29,10 @@
   
 	  - https://www.dataquest.io/course/pandas-fundamentals/
   
-- great search engine for coding: https://duckduckgo.com/ (but obviously google will work fine)
+- great search engine for coding: https://duckduckgo.com/ 
 
-# Session by session comments
+
+# Session-by-session comments
 
 ## Week 1 (9/4/2020) - Installation & demo environment
 I'm not expecting you to do any before the session, as one of the points is that you set time aside for Python over the sessions (and obviously because 'who am i to "expect you" to do anything!!), BUT for this time it would be great that you **just downloaded** one thing before[1] (helpful in case you have a bad connection that would suffer if you download & videoconference simultaneously). 
