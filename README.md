@@ -20,16 +20,21 @@
 
 
 
-
 ### Useful links/external ressources:
+There are many great ressources online, I keep running into new ones and will update accordingly. 
+- **Tutorials**:
+	- [update 15/4/2020] I don't want to overwhelm you but this looks like an extremely relevant list, well-organized! https://github.com/openlists/PythonResources If you don't know what to choose in there, start with one of these:
+- https://www.oreilly.com/library/view/a-whirlwind-tour/9781492037859/ seems very complete yet concise (from the table of contents)
+		
+	- For a shorter overview: https://cogs18.github.io/materials/03-Variables (this is part '03-Variables' of the course) and continue until 07
 
-- Tutorials:
-  - main modules you need to learn about: numpy and dataframe (manipulating data: in brief, numpy is working like matrices, and datafame is build on top of numpy and is more convenient because it allows to call cells by name, handles input, output, etc.)
+      - [OR] after learning about the 'core' language, main modules you need to learn about: **numpy** and **pandas** (manipulating data: in brief, numpy is working like matrices, and datafame is build on top of numpy and is more convenient because it allows to call cells by name, handles input, output, etc.), **matplotlib** for plots **scipy** for stats etc.
       - https://www.dataquest.io/course/python-for-data-science-fundamentals/
+	
+    - https://www.dataquest.io/course/pandas-fundamentals/
   
-	  - https://www.dataquest.io/course/pandas-fundamentals/
-  
-- great search engine for coding: https://duckduckgo.com/ 
+- great search engine for coding: https://duckduckgo.com/ (but obviously google will work fine)
+
 
 
 # Session-by-session comments
