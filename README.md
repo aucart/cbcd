@@ -71,3 +71,7 @@ https://www.datacamp.com/
 - https://www.dataquest.io/course/python-for-data-science-fundamentals/
 
   - followed by: https://www.dataquest.io/course/pandas-fundamentals/
+  
+## Week 2 (17/4/2020)
+Video intro (catch up or reminder) & go at your own pace :)
+https://www.youtube.com/watch?v=DDf_qfcYR6w&feature=youtu.be
