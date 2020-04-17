@@ -4,7 +4,7 @@
 
 - **Memos**
 
-  |_ PDFs:  really good 'Cheat sheets' from datacamp + (to come) equivalent Matlab <-> Python for common functions
+  |_ PDFs:  really good 'Cheat sheets' from datacamp + equivalent functions Matlab <-> Python
 
   |_ a01_generalImports.py: *recommend to copy it at the start of every script, to save time*
 
@@ -33,7 +33,7 @@ There are many great ressources online, I keep running into new ones and will up
 
     - https://www.dataquest.io/course/pandas-fundamentals/
 - great search engine for coding: https://duckduckgo.com/ (but obviously google will work fine)
-
+- some reasons why people prefer Python over Matlab: https://pyzo.org/python_vs_matlab.html
 
 # Session-by-session comments
 
@@ -78,3 +78,4 @@ https://youtu.be/DDf_qfcYR6w
 
 2. Less essential but will be helpful at some point: imports
 https://youtu.be/kSws93m-OZo
+
