@@ -1,8 +1,14 @@
-# Here is the syntax to change your path in Mac (for example, to your desktop) - thank you Louisa!
-# /Users/yourUserName/Desktop
-
 import os
 import pathlib
+
+# Here is the syntax to define paths on MacOC (for example, to your desktop) - thank you Louisa!
+# /Users/yourUserName/Desktop
+filePath = "/Users/yourUserName/Desktop/filename.csv"
+# filePath = "C:/Users/yourUserName/Desktop/filename.csv" # on windows
+
+
+# If you don't want to define your path file by file, nor use your current/default path as root (for the relative paths such as: ./data/), you can change 
+# your current working directory with os.chdir:
 
 os.chdir(pathlib.Path("/Users/yourUserName/Desktop"))
 
