@@ -51,7 +51,7 @@ cdt = 'cdtA'
 diResults = {'ageGroup0':[], 'ageGroup1':[]} # Will store results in a dictionnary
 diResults
 
-for i in range(1):                           # Note that if you hadn't converted the bool into int, you could do: for i in range [True, False]
+for i in range(2):                           # Note that if you hadn't converted the bool into int, you could do: for i in range [True, False]
     subset = df[df['medianSplit']==i]
     av = subset['DV_'+cdt].mean()
     sd = subset['DV_'+cdt].std()
