@@ -1,6 +1,11 @@
-# Here is the syntax to change your path in Mac (for example, to your desktop)
-# /Users/yourUserName/Desktop (thank you Louisa!)
+# Here is the syntax to change your path in Mac (for example, to your desktop) - thank you Louisa!
+# /Users/yourUserName/Desktop
 
+import os
 import pathlib
-# filename = "/Users/yourUserName/Desktop"           # This commented line would be the classical way to go: define a str with the path of your file ...
-filename = pathlib.Path("/Users/yourUserName/Desktop/filename.csv") # ... But using this 'pathlib' library prevents any 'slash' issue if you share code between macOS / windows / Unix
+
+os.chdir(pathlib.Path("/Users/yourUserName/Desktop"))
+
+# Note: pathlib.Path is not necessary, aka:
+# os.chdir("/Users/yourUserName/Desktop") # This commented line would be the classical way to go: define a str with the path of your file ...
+# ... But using this 'pathlib' library prevents any 'slash' issue if you share code between macOS / windows / Unix
