@@ -1,0 +1,41 @@
+""" A simple mixed model with random intercept
+# =================================================
+
+Dummy cross-sectionnal experimental design ; data in long format:
+    Repeated measure (ID: participants ID)
+    each participant has 2 measurements (2 experimental conditions, 1 measurement per condition); nominal variable
+    participant age; continuous scale variable OR participants belong in two age groups
+
+Interested in predictors (IVs) for (1) exp conditions effect (2) age
++ their interaction
+
+Accounting for repeated measures by a random effect per ID.
+
+(NB. Can easily be changed to longitudinal design: age is the within-subject variable ..)
+
+----------------------------------------------------------
+----------------------------------------------------------
+
+This Python script does what the R syntax below would do:
+----------------------------------------------------------
+
+library(lme4)
+
+src =  "dummy.csv"
+
+df <- read.table(src, header = TRUE, sep = ",")
+
+out = lmer("DV ~ IV1 + IV2 + IV1*IV2" + (1|ID), data=df)
+summary(out)
+"""
+
+import pandas as pd
+import statsmodels.formula.api as smf
+
+src = "dummy.csv"
+
+df = pd.DataFrame.from_csv(src) # columns contain: DV IV1 IV2 ID
+
+md  = smf.mixedlm("DV ~ IV1 + IV2 + IV1*IV2", df, groups = df["ID"]) #group > random effect
+mdf = md.fit()
+print(mdf.summary())
